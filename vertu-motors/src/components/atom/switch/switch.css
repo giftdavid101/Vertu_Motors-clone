@@ -1,0 +1,18 @@
+.switch {
+  width: 200px;
+  padding: 20px;
+  background: orange;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.switch .btn {
+  top: 0;
+  position: absolute;
+  background: indianred;
+  padding: 25px;
+}
+
+/*# sourceMappingURL=switch.css.map */
