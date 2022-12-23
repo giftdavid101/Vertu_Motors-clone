@@ -1,4 +1,5 @@
 import React from "react";
+import { SlArrowRight } from "react-icons/sl";
 
 const Card: React.FC<{ imgSrc: string; subContent: any; imgAlt: string }> = ({
   imgSrc,
@@ -10,7 +11,12 @@ const Card: React.FC<{ imgSrc: string; subContent: any; imgAlt: string }> = ({
       <div className={"card__image-container"}>
         <img src={imgSrc} alt={imgAlt} />
       </div>
-      {subContent && <div className={"card__sub-content"}>{subContent}</div>}
+      {subContent && (
+        <div className={"card__sub-content"}>
+          {subContent}
+          <SlArrowRight />
+        </div>
+      )}
     </div>
   );
 };
