@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import logo from "../../assets/img/logo.png";
+import logo from "../../../assets/img/logo.png";
 import { IoMdSearch } from "react-icons/io";
 import { GrLocation } from "react-icons/gr";
 import { RxPerson } from "react-icons/rx";
@@ -8,9 +8,10 @@ import { FiPhone } from "react-icons/fi";
 import { BiInfoCircle } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
-import Input from "../atom/input";
+import Input from "../../atom/input";
+import "./header.scss";
 
-const Header = () => {
+const Index = () => {
   return (
     <div>
       <div>
@@ -54,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Index;
