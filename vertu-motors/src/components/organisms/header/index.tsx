@@ -13,14 +13,14 @@ import "./header.scss";
 
 const Index = () => {
   return (
-    <div>
-      <div>
+    <div className={"Header"}>
+      <div className={"Header__advert"}>
         <Link to={"/"}>Fleet</Link>
         <Link to={"/"}>Careers</Link>
         <Link to={"/"}>Investor</Link>
         <Link to={"/"}>Contact Us</Link>
         <Link to={"/"}>Newsroom</Link>
-        <div>
+        <div className={"Header__advert__call-us"}>
           <FiPhone />
           Call us on 0330 042 5132 (Sales open until 9pm)
           <BiInfoCircle />
