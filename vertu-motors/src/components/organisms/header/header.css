@@ -1,3 +1,12 @@
-
+.Header {
+  width: 100%;
+}
+.Header__advert {
+  background: #F4F4F4;
+  line-height: 1.5625;
+}
+.Header__advert__call-us {
+  background: #17A3A3;
+}
 
 /*# sourceMappingURL=header.css.map */
