@@ -1,6 +1,8 @@
 .Header{
   width: 100%;
   &__advert{
+    display: flex;
+    justify-content: right;
     background: #F4F4F4;
     line-height: 1.5625;
     &__call-us{
