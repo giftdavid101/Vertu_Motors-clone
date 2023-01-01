@@ -14,7 +14,7 @@ import "./header.scss";
 const Index = () => {
   return (
     <div className={"Header"}>
-      <div className={"Header__advert"}>
+      <div className={"Header__advert container"}>
         <Link to={"/"}>Fleet</Link>
         <Link to={"/"}>Careers</Link>
         <Link to={"/"}>Investor</Link>

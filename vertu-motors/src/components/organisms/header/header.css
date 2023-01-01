@@ -2,6 +2,8 @@
   width: 100%;
 }
 .Header__advert {
+  display: flex;
+  justify-content: right;
   background: #F4F4F4;
   line-height: 1.5625;
 }
