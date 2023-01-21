@@ -21,9 +21,9 @@ const Index = () => {
         <Link to={"/"}>Contact Us</Link>
         <Link to={"/"}>Newsroom</Link>
         <div className={"Header__advert__call-us"}>
-          <FiPhone />
+          <FiPhone className={"icon"} />
           Call us on 0330 042 5132 (Sales open until 9pm)
-          <BiInfoCircle />
+          <BiInfoCircle className={"icon"} />
         </div>
       </div>
       <div>

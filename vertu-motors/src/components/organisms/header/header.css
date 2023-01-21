@@ -15,6 +15,13 @@
 .Header__advert__call-us {
   background: #17A3A3;
   color: #fff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header__advert__call-us .icon {
+  margin: 0 5px;
 }
 
 /*# sourceMappingURL=header.css.map */
