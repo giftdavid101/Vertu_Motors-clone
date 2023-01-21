@@ -1,5 +1,7 @@
 .Header{
   width: 100%;
+  color: #212b36;
+  font-size: 15px;
   &__advert{
     display: flex;
     justify-content: right;
@@ -7,6 +9,7 @@
     line-height: 1.5625;
     &__call-us{
       background: #17A3A3;
+      color: #fff;
     }
   }
 }

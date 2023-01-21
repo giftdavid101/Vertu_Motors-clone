@@ -1,5 +1,7 @@
 .Header {
   width: 100%;
+  color: #212b36;
+  font-size: 15px;
 }
 .Header__advert {
   display: flex;
@@ -9,6 +11,7 @@
 }
 .Header__advert__call-us {
   background: #17A3A3;
+  color: #fff;
 }
 
 /*# sourceMappingURL=header.css.map */
