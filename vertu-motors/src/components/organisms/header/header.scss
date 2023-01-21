@@ -1,7 +1,11 @@
 .Header{
   width: 100%;
-  color: #212b36;
+
   font-size: 15px;
+  a{
+    margin-right: 20px;
+    color: #212b36;
+  }
   &__advert{
     display: flex;
     justify-content: right;
